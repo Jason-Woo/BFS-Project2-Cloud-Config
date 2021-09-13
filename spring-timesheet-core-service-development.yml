@@ -13,25 +13,25 @@ management:
       exposure:
         include: "*"
         
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: "guest"
-  cloud:
-    bus:
-      enabled: true
-      refresh:
-        enabled: true
-  zipkin:
-    base-url: http://localhost:9411/
-  sleuth:
-    sampler:
-      probability: 1
-      
-logstash:
-  host: localhost
-  port: 5000
-
-timezone: PST
+#spring:
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: "guest"
+#  cloud:
+#    bus:
+#      enabled: true
+#      refresh:
+#        enabled: true
+#  zipkin:
+#    base-url: http://localhost:9411/
+#  sleuth:
+#    sampler:
+#      probability: 1
+#
+#logstash:
+#  host: localhost
+#  port: 5000
+#
+#timezone: PST
