@@ -12,6 +12,22 @@ management:
     web:
       exposure:
         include: "*"
+        
+spring:
+  application:
+    name: employee-core-service
+  datasource:
+    url: jdbc:mysql://team-project.cjfqfrgtvaw0.us-east-1.rds.amazonaws.com/info
+    username: admin
+    password: beaconfire
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: false
+    properties:
+      hibernate:
+        ddl-auto: none
+        enable_lazy_load_no_trans: true
 # spring:
 #   rabbitmq:
 #     host: localhost
