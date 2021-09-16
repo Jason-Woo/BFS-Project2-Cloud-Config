@@ -12,7 +12,11 @@ management:
     web:
       exposure:
         include: "*"
-        
+spring:
+ data:
+    mongodb:
+      uri: mongodb+srv://admin:beaconfire12345@timesheet.dxi2x.mongodb.net/timesheet-management?retryWrites=true&w=majority
+
 #spring:
 #  rabbitmq:
 #    host: localhost
